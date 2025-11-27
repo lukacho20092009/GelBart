@@ -1507,10 +1507,10 @@ input[type="range"]::-webkit-slider-thumb:hover {
 
 @media (max-width: 992px) {
 
-    /* .hero-video {
+     .hero-video {
     object-fit: contain;
     background: black; 
-  } */
+  } 
 
     .about{
       display: grid;
@@ -1885,4 +1885,5 @@ input[type="range"]::-webkit-slider-thumb:hover {
 @keyframes fadeInUp {
     0% {opacity:0; transform:translateY(20px);}
     100% {opacity:1; transform:translateY(0);}
+
 }
