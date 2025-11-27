@@ -134,7 +134,7 @@ const paintings = [
   { id: 1,
     title: 
     'Sunset Glow',
-    price: 250,
+    price: 285,
     img: 'imgs/1.jpg',
     desc: 'A warm evening light over calm waters, expressing peace and reflection.',
     sold: false,
@@ -916,4 +916,5 @@ function closeModal() {
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeModal();
   });
+
 })();
